@@ -39,6 +39,13 @@
             "roles": [
               "Manager"
             ]
+          },
+          "rpapani": {
+            "password": "Yashaswini@98674574402",
+            "roles": [
+              "Manager",
+              "Creator"
+            ]
           }
         }
       }

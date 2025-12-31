@@ -29,12 +29,12 @@
   "sap.ui": {
     "technology": "UI5",
     "icons": {
-      "icon": "",
-      "favIcon": "",
-      "phone": "",
-      "phone@2": "",
-      "tablet": "",
-      "tablet@2": ""
+      "icon": "sap-icon://timesheet",
+      "favIcon": "sap-icon://timesheet",
+      "phone": "sap-icon://timesheet",
+      "phone@2": "sap-icon://timesheet",
+      "tablet": "sap-icon://timesheet",
+      "tablet@2": "sap-icon://timesheet"
     },
     "deviceTypes": {
       "desktop": true,
@@ -81,7 +81,11 @@
       }
     },
     "resources": {
-      "css": []
+      "css": [
+        {
+          "uri": "css/custom.css"
+        }
+      ]
     },
     "routing": {
       "config": {},

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(255,149,0,0.05)" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="1.5" fill="rgba(52,152,219,0.1)"/>
+    </pattern>
+  </defs>
+
+  <!-- Base -->
+  <rect width="600" height="600" fill="#1a1a1a"/>
+
+  <!-- Grid Pattern -->
+  <rect width="600" height="600" fill="url(#grid)"/>
+
+  <!-- Dots Pattern -->
+  <rect width="600" height="600" fill="url(#dots)"/>
+
+  <!-- Industrial Elements -->
+  <g opacity="0.05">
+    <!-- Gears -->
+    <circle cx="100" cy="100" r="40" fill="none" stroke="#FF9500" stroke-width="2"/>
+    <circle cx="500" cy="500" r="50" fill="none" stroke="#FF9500" stroke-width="2"/>
+
+    <!-- Lines -->
+    <line x1="0" y1="200" x2="600" y2="200" stroke="#FF9500" stroke-width="1" stroke-dasharray="10,10"/>
+    <line x1="0" y1="400" x2="600" y2="400" stroke="#3498DB" stroke-width="1" stroke-dasharray="10,10"/>
+
+    <!-- Diagonal -->
+    <line x1="0" y1="0" x2="600" y2="600" stroke="#FF9500" stroke-width="0.5" opacity="0.3"/>
+    <line x1="600" y1="0" x2="0" y2="600" stroke="#3498DB" stroke-width="0.5" opacity="0.3"/>
+  </g>
+</svg>
